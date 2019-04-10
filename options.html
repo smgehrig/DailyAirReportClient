@@ -1,37 +1,46 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <style>
-      </style>
+		<link rel="stylesheet" type="text/css" href="css/options.css">
     </head>
 	
     <body>
       <div id="buttonDiv">
       </div>
       <div>
-        <p>Location</p>
-		  <input type="checkbox" name="locationCheck" value="locationCheck"/> Use device's location <br>
-		  <input type="text" name="FirstName" value="City"/><br>
-		  <select>
-			<option value="country1">country1</option>
-			<option value="country1">country2</option>
-			<option value="country1">country3</option>
-			<option value="country1">country4</option>
-		   </select><br/>
-		  <button type="button">Add</button>
+        <h1>Location</h1>
 		
+		<div class="content">
+		  <input type="checkbox" name="locationCheck" value="locationCheck"onClick="hideDetails('details-location')"/> Use device's location <br>
+		  <div id="details-location">
+		  <input type="text" name="FirstName" value="City"/><br>
+			  <select>
+				<option value="country1">country1</option>
+				<option value="country1">country2</option>
+				<option value="country1">country3</option>
+				<option value="country1">country4</option>
+			   </select><br/>
+			  <button type="button">Add</button>
+		  </div>
+		</div>
 		<hr/>
-		<p>Messaging</p>
-		   <input type="checkbox" name="locationCheck" value="locationCheck"/> Send daily text message <br>
-		   <input type="text" name="FirstName" value="Phone number"/><br>
-		   <input type="text" name="FirstName" value="Desired text time"/><br>
-		  <select>
-			<option value="Timezone1">Timezone1</option>
-			<option value="Timezone2">Timezone2</option>
-			<option value="Timezone3">Timezone3</option>
-			<option value="Timezone4">Timezone4</option>
-		   </select><br/>
+		<h1>Messaging</h1>
+		
+		<div class="content">
+		   <input type="checkbox" name="messageCheck" value="messageCheck" checked onClick="hideDetails('details-messaging')"/> Send daily text message <br>
+		   <div id="details-messaging">
+				<input type="text" name="FirstName" value="Phone number"/><br>
+			   <input type="text" name="FirstName" value="Desired text time"/><br>
+			  <select>
+				<option value="Timezone1">Timezone1</option>
+				<option value="Timezone2">Timezone2</option>
+				<option value="Timezone3">Timezone3</option>
+				<option value="Timezone4">Timezone4</option>
+			  </select>
+			  <br/>
+			</div>
 		   
+		</div>
 		   <button type="button">Save</button>
 		   
       </div>
