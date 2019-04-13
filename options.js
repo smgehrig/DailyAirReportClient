@@ -46,7 +46,6 @@ function initMap() {
               console.log("Returned place contains no geometry");
               return;
             }
-	
 			if(!savedLocationList.includes(place))
 			{
 				createMarker(place);
@@ -61,7 +60,6 @@ function initMap() {
         });
         map.fitBounds(bounds);
     });
-	
 	/* ======== Listener for map click ======== */
 	map.addListener('click', function(event) {
         addMapClickToList(event.latLng);

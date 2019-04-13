@@ -124,7 +124,6 @@ background: #dbdbdb;
 transition: all 0.3s ease 0s;
 }
 
-
 .save-button {
 position: static;
 float: left;
@@ -136,6 +135,7 @@ padding: 10px;
 padding-left: 20px;
 padding-right: 20px;
 margin: 10px;
+<<<<<<< HEAD
 margin-left: 0%;
 display: inline-block;
 cursor: pointer;
