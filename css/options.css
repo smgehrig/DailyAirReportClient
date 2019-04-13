@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 16px;
+}
+
+#details-location {}
+
+#details-messaging {}
+
+#user_location_button {
+	background: url("../images/UserLocationIcon.png");
+	height: 20px;
+	width: 20px;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+#location_parent {
+	display: flex;
+}
+
+#map {
+	width: 60%;
+	height: 350px;
+}
+
+#location_list_parent_div {
+	flex: 1;
+	height: 350px;
+	margin-left: 10px;
+}
+
+.inputfield {
+	font-weight: 100;
+	padding: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+
+.inputfield:hover {
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 1px;
+background: #FFFFFF;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+.content {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.add_button {
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin: 10px;
+margin-left: 0px;
+display: inline-block;
+}
+
+.add_button:disabled {
+	background: #e8e8e8;
+	color: #bfbfbf !important;
+}
+
+.add_button:hover:enabled {
+cursor: pointer;
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 1px;
+background: #dbdbdb;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+
+.remove_button {
+
+border: none;
+background: #ce0808;
+color: #ffffff !important;
+font-weight: 100;
+padding: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin: 10px;
+margin-left: 0px;
+}
+
+.remove_button:disabled {
+	background: #e8e8e8;
+	color: #bfbfbf !important;
+}
+
+.remove_button:hover:enabled {
+cursor: pointer;
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 1px;
+background: #dbdbdb;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+
+.save-button {
+position: static;
+float: left;
+border: none;
+background: #009933;
+color: #ffffff !important;
+font-weight: 100;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 10px;
+margin-left: 0%;
+display: inline-block;
+cursor: pointer;
+}
+
+.save-button:hover {
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: #e6ffee;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+.button-cont {
+margin-left: 50%;
+margin-top: 20px;
+margin-bottom: 40px;
+}
